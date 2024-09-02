@@ -10,6 +10,6 @@ $TTL	604800
 			 604800 )	; Negative Cache TTL
 ;
 @	IN	NS	ns.ifrn.asa.br.
-@	IN	A	192.168.0.9
-ns	IN	A	192.168.0.9
+@	IN	A	10.25.3.16
+ns	IN	A	10.25.3.16
 www	IN	CNAME	ns
