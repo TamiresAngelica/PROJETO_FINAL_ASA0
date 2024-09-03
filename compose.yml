@@ -19,18 +19,18 @@ services:
     image: proxy
     container_name: proxy
     ports:
-      - "80:80"
       - "443:443"
+      - "80:80"
     depends_on:
-      - web1
+      - portal
     networks:
       - tamires
 
 
 
 
-  web1:
-    image: wordpress
+  portal:
+    image: wordpress:latest
     restart: always
     container_name: wordpress
     environment:
