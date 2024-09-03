@@ -9,9 +9,16 @@ $TTL	604800
 			2401200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
+<<<<<<< HEAD
 @	IN  MX 10 mail.ifrn.asa.br.
 @	IN	NS	ns1.ifrn.asa.br.
 
 ns1			A	192.168.0.6 
 mail		A 	192.168.0.6 	
 www			CNAME	ns1
+=======
+@	IN	NS	ns.ifrn.asa.br.
+@	IN	A	10.25.3.16
+ns	IN	A	10.25.3.16
+www	IN	CNAME	ns
+>>>>>>> f371127704c4d83631b43d2101c355e180460923
